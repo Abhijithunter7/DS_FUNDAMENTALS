@@ -20,6 +20,7 @@ visa_rates = {}
 for rate in json_data["visa_rates"]:
     visa_rates.update(rate)
 
+
 # Step 4: Function to get visa rate
 def visa_rate(city):
     city = city.lower()  # Convert input to lowercase for consistent matching
